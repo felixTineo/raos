@@ -1,4 +1,6 @@
 webpack.config.js
 .babelrc
 src
+yarn-error.log
+
 

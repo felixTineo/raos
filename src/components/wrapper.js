@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import useObserver from '../hooks/observer';
 
 export default ({ className, children, percent, style }) => {
@@ -8,7 +8,7 @@ export default ({ className, children, percent, style }) => {
     <div
       style={style}
       ref={el => setObserve(el)}
-      className={observe && className}
+      className={observe ? className : null}
     >
       {children}
     </div>

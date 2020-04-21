@@ -1,0 +1,1 @@
+1-condicional de la clase sin && debe ser completo ? algo : null
